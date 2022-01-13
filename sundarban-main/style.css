@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #27f57d;
+}
+
+.about-section{
+    background: url(cover.jpg) no-repeat left;
+    background-size: 99%;
+    background-color: #e6f0e8;
+    overflow: hidden;
+    height: 100%;
+    padding: 50px 150;
+    padding-left: 300px;
+    padding-top: 80px;
+}
+
+.inner-container{
+    width: 80%;
+    height:90%;
+    background-color: #77f5a7;
+    padding: 30px;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+h1{
+  color: #111010;
+}
+
+
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 50px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 20px;
+    }
+}
+
+
+.btn{
+    display:inline-block;
+    padding:10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color:darkslategray;
+}
+.btn-full{
+    background-color: rgb(252, 224, 70);
+    color:rgb(0, 51, 0);
+    margin: right 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(0, 51, 0);
+
+
+}
+.btn-nav{
+    background-color: rgb(167, 214, 253);
+    color:rgb(0, 51, 0);
+    margin: right 15px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(0, 51, 0);
+
+
+
+}
+.btn-new{
+    background-color: rgb(252, 182, 248);
+    color:rgb(0, 51, 0);
+    margin: right 15px;
+    border: 1px solid rgb(0, 51, 0);
+
+
+}
